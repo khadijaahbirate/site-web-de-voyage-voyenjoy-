@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="pagefix.master.cs" Inherits="Voyenjoy.pagefix" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>voyenjoy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+  
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+ 
+  </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<!-- start header imge  -->
+      <div   class="jumbotron text-center" id="headPage">
+                 <div id="contimgheader">
+                                <div class="icon-bar" >
+                                  <a class="actican" href="#"><i class="fa fa-home"></i></a>
+                                  <a href="#"><i class="fa fa-facebook"></i></a> 
+                                  <a href="#"><i class="fa fa-twitter"></i></a> 
+                                  <a href="#"><i class="fa fa-envelope"></i></a> 
+                                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                                <div id="titrePage">
+                                  <p class="textvoyenjy" ><h1>Welcome to Voyenjoy</h1></p>
+                                  <p>Enjoy traveling</p>
+                                   
+                                </div>
+                                    
+                    </div>             
+
+     </div>   
+            
+
+<!-- finish header imge -->
+<!-- start navbar -->
+<nav class="navbar navbar-inverse " id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Voyenjoy</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      <li><a href="homepage.aspx">Home</a></li>
+        <li><a href="#">Agency announcement</a></li>
+        <li><a href="#">Information</a></li>
+         <li><a href="Registre.aspx">Registration</a></li>
+         
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- finish navbar -->
+<!-- start text & image-->
+
+
+
+
+
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+
+
+<div class="jumbotron text-center" style="margin-bottom:0" id="footerimg">
+  <p> <span class="glyphicon glyphicon-copyright-mark"> 2019 TDIB voyenjoy .All rights reserved.</span> <a href="#"><i class="fa fa-twitter"></i></a> 
+  <a href="#"><i class="fa fa-linkedin"></i></a> 
+  <a href="#"><i class="fa fa-facebook"></i></a>
+    </p>
+</div>
+
+
+</body>
+</html>
